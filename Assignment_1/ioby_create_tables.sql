@@ -1,5 +1,4 @@
 create table Zip (
-/* Zip code er int fordi det tar kortere tid å sammenligne to int-er enn to strenger */
 code int not null primary key,
 state varchar(255) not null,
 city varchar(255) not null
